@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #a2f0f6, #84e6f1);
+    color: #002c5f;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #1a8cd8;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #666;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #156bb5;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .texto h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #002c5f;
+    align-items: left;
+  }
+  
+  .texto p {
+    font-size: 1.5em;
+    color: #444;
+    align-items: left;
+  }
+  
+  .texto strong {
+    font-weight: bold;
+    color: #002c5f;
+    align-items: left;
+  }
+  
+  .botao-agendar {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #1a8cd8;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #666;
+    transition: background 0.3s;
+  }
+  
+  .botao-agendar img {
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .botao-agendar:hover {
+    background-color: #156bb5;
+  }
+  
+  .imagem img {
+    max-width: 400px;
+    height: auto
+  }
+    .imagem-clinica img {
+        border-width: auto;
+        border-color: #2e5c61;
+        border-style: solid;
+    }
+
+
+  form {
+    margin-top: 20px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+  form button {
+    background-color: #1a8cd8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #666;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #156bb5;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #ffffffcc;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #aaa;
+  }
+  
+  footer {
+    background-color: #1a8cd8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border: 3px solid #126fa7;
+    border-radius: 12px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px #0c5d90aa;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
